@@ -1,0 +1,77 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Times New Roman", sans-serif;
+}
+
+#profile{
+    height: 250px;
+    width: 250px;
+}
+
+#landing {
+    /* viewport height - measured percentage of the height of device you are viewing your webpage in */
+    height: 80vh;
+
+    /* arranges elements inside the parent element, will allow us to layout our elements inside our landing section */
+    display: flex;
+    flex-direction: column;
+
+    /* centering elements vertically */
+    align-items: center;
+
+    /* centering elements horizontally */
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    border-radius: 6px;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+h2 {
+    /* hex */
+    color: #007bff;
+}
+
+.tools {
+    /*line - around the element */
+    border: 5px solid #f2f2f2;
+
+    /* space outside the element */
+    margin: 20px;
+
+    /* space inside the element */
+    padding: 25px;
+
+    height: 200px;
+
+    width: 75%;
+
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
